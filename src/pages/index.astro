@@ -33,11 +33,11 @@ export const prerender = true;
                   transition:name={`img-${slug}`}
                   src={`/${img}`} 
                   alt={title} 
-                  class="w-full rounded-lg mr-5 w-48 rounded" />
+                  class="mr-5 w-48 rounded"/>
                 </a>
 
                 <div class="flex flex-col justify-center">
-                  <h3 class="mb-2 text-2xl font-bold leading-tight text-white ml-4">
+                  <h3 transition:name={`title-${slug}`} class="mb-2 text-2xl font-bold leading-tight text-white ml-4">
                     {title}
                   </h3>
 
